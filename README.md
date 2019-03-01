@@ -1,2 +1,2 @@
 # LearningCSharp
-First wake through of C#.
+First walk through of C#.
