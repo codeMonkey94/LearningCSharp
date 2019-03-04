@@ -21,11 +21,11 @@ namespace CsharpProgram
         {
             Console.WriteLine(x);
         }
-        public String getWord()
+        public virtual String getWord()
         {
             return this.word;
         }
-        public void setWord(String x)
+        public virtual void setWord(String x)
         {
             this.word = x;
         }
@@ -38,11 +38,11 @@ namespace CsharpProgram
 
         //METHODS:
         //NOTE THIS CLASS ALSO HAS ACCESS TO DISPLAY() FROM BASE CLASS
-        public String getWord2()
+        public override String getWord()
         {
             return this.word2;
         }
-        public void setWord2(String x)
+        public override void setWord(String x)
         {
             this.word2 = x;
         }
@@ -77,7 +77,7 @@ namespace CsharpProgram
 
             //USING THE DEFINED CLASS METHODS TO PRINT WORD & WORD2
             handle.Display(handle.getWord());
-            handle1.Display(handle1.getWord2());
+            handle1.Display(handle1.getWord());
 
         }
     }
