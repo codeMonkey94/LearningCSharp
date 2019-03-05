@@ -78,6 +78,7 @@ namespace CsharpProgram
             //USING THE DEFINED CLASS METHODS TO PRINT WORD & WORD2
             handle.Display(handle.getWord());
             handle1.Display(handle1.getWord());
+            Console.ReadLine();
 
         }
     }
